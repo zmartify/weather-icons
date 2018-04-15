@@ -51,3 +51,5 @@ $wi-font-family:                 weathericons !default;
 
 .#{$wi-css-prefix}-flip-horizontal { @include wi-icon-flip(-1, 1, 0); }
 .#{$wi-css-prefix}-flip-vertical   { @include wi-icon-flip(1, -1, 2); }
+
+@import "_larger.scss";
